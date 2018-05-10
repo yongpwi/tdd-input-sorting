@@ -79,9 +79,4 @@ public class InputSortingTest {
         assertThat(inputSorting.sorting("aa8cbA0T12"), is("Aa0Ta1b2c8"));
     }
 
-    @Test
-    public void checkTest2() throws WrongInputException {
-        System.out.println(inputSorting.sorting("aa11199 b"));
-    }
-
 }
